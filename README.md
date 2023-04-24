@@ -1,7 +1,6 @@
-# Code and materials for the paper *Nonlinear decoding promotes improved low-dimensional data projections*
+# Code and materials for the paper *Improving reduced-order models through nonlinear decoding of projection-dependent model outputs*
 
 ## Data
-
 
 ## Code
 
