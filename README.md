@@ -2,6 +2,13 @@
 
 ## Data
 
+Datasets used in this study are stored in `data/` directory. These include combustion datasets for:
+
+- hydrogen
+- syngas
+- methane
+- ethylene
+
 ## Code
 
 ### Reproducing Figure 1
