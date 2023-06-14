@@ -25,11 +25,20 @@ Our open-source Python library [**PCAfold**](https://pcafold.readthedocs.io/en/l
 
 Once the results are obtained using these scripts, the following Jupyter notebooks can be used to post-process results and generate figures:
 
+### Reproducing Figure 2
+
+This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from this figure:
+
+![Screenshot](figures/Figure-2.png)
+
 ### Reproducing Figure 3
 
+This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from this figure:
 
-
+![Screenshot](figures/Figure-3.png)
 
 ### Reproducing Figure 4
 
+This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from this figure:
 
+![Screenshot](figures/Figure-4.png)
