@@ -14,16 +14,16 @@ print('keras==' + keras_version)
 print('PCAfold==' + PCAfold_version)
 
 # Select one dataset:
-data_tag = 'H2'
-# data_tag = 'CO-H2'
-# data_tag = 'CH4'
-# data_tag = 'C2H4'
+data_tag = 'H2-air'
+# data_tag = 'CO-H2-air'
+# data_tag = 'CH4-air'
+# data_tag = 'C2H4-air'
 
 ########################################################################
 ## Load data - Hydrogen/air flamelet
 ########################################################################
 
-if data_tag == 'H2':
+if data_tag == 'H2-air':
     
     state_space = pd.read_csv('../data/' + data_tag + '-state-space.csv', sep = ',', header=None).to_numpy()[:,0:-2]
     state_space_sources = pd.read_csv('../data/' + data_tag + '-state-space-sources.csv', sep = ',', header=None).to_numpy()[:,0:-2]
@@ -35,7 +35,7 @@ if data_tag == 'H2':
 ## Load data - Syngas/air flamelet
 ########################################################################
 
-if data_tag == 'CO-H2':
+if data_tag == 'CO-H2-air':
     
     state_space = pd.read_csv('../data/' + data_tag + '-state-space.csv', sep = ',', header=None).to_numpy()[:,0:-1]
     state_space_sources = pd.read_csv('../data/' + data_tag + '-state-space-sources.csv', sep = ',', header=None).to_numpy()[:,0:-1]
@@ -52,7 +52,7 @@ if data_tag == 'CO-H2':
 ## Load data - Methane/air flamelet
 ########################################################################
 
-if data_tag == 'CH4':
+if data_tag == 'CH4-air':
    
     state_space = pd.read_csv('../data/' + data_tag + '-state-space.csv', sep = ',', header=None).to_numpy()[:,0:-1]
     state_space_sources = pd.read_csv('../data/' + data_tag + '-state-space-sources.csv', sep = ',', header=None).to_numpy()[:,0:-1]
@@ -70,7 +70,7 @@ if data_tag == 'CH4':
 ## Load data - Ethylene/air flamelet
 ########################################################################
 
-if data_tag == 'C2H4':
+if data_tag == 'C2H4-air':
    
     state_space = pd.read_csv('../data/' + data_tag + '-state-space.csv', sep = ',', header=None).to_numpy()[:,0:-1]
     state_space_sources = pd.read_csv('../data/' + data_tag + '-state-space-sources.csv', sep = ',', header=None).to_numpy()[:,0:-1]
