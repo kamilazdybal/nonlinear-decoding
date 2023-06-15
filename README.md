@@ -2,7 +2,7 @@
 
 ## Data
 
-Datasets used in this study are stored in `data/` directory. These include combustion datasets for:
+Datasets used in this study are stored in the `data/` directory. These include combustion datasets for:
 
 - hydrogen
 - syngas
@@ -35,9 +35,9 @@ This [Jupyter notebook](https://github.com/kamilazdybal/regression-aware-autoenc
 
 These two Jupyter notebooks:
 
-- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-inspect-projections.ipynb) 
+- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-inspect-projections.ipynb)
 
-- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-draw-PDFs.ipynb) 
+- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-draw-PDFs.ipynb)
 
 can be used to reproduce results from this figure:
 
