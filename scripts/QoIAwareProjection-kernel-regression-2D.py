@@ -156,11 +156,11 @@ for random_seed in random_seeds_list:
     
     print(f'\nTotal time: {(total_toc - total_tic)/60:0.1f} minutes.')
 
-np.savetxt('' + data_tag + '-NRMSE-Seta-1-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_1_without), delimiter=',', fmt='%.16e')
-np.savetxt('' + data_tag + '-NRMSE-Seta-2-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_2_without), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-NRMSE-Seta-1-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_1_without), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-NRMSE-Seta-2-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_2_without), delimiter=',', fmt='%.16e')
 
-np.savetxt('' + data_tag + '-R2-Seta-1-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_1_without), delimiter=',', fmt='%.16e')
-np.savetxt('' + data_tag + '-R2-Seta-2-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_2_without), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-R2-Seta-1-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_1_without), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-R2-Seta-2-without-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_2_without), delimiter=',', fmt='%.16e')
 
 # With Seta: - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -214,8 +214,8 @@ for random_seed in random_seeds_list:
     
     print(f'\nTotal time: {(total_toc - total_tic)/60:0.1f} minutes.')
 
-np.savetxt('' + data_tag + '-NRMSE-Seta-1-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_1_with), delimiter=',', fmt='%.16e')
-np.savetxt('' + data_tag + '-NRMSE-Seta-2-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_2_with), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-NRMSE-Seta-1-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_1_with), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-NRMSE-Seta-2-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(NRMSE_Seta_2_with), delimiter=',', fmt='%.16e')
 
-np.savetxt('' + data_tag + '-R2-Seta-1-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_1_with), delimiter=',', fmt='%.16e')
-np.savetxt('' + data_tag + '-R2-Seta-2-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_2_with), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-R2-Seta-1-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_1_with), delimiter=',', fmt='%.16e')
+np.savetxt('../results/' + data_tag + '-R2-Seta-2-with-Seta-' + str(n_components) + 'D-LDM.csv', np.array(R2_Seta_2_with), delimiter=',', fmt='%.16e')
