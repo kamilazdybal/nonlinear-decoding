@@ -2,7 +2,7 @@
 
 ## Data
 
-Datasets used in this study are stored in the `data/` directory. These include combustion datasets for:
+Datasets used in this study are stored in the `data/` directory. These include multivariate combustion datasets for:
 
 - hydrogen
 - syngas
@@ -13,11 +13,11 @@ Datasets used in this study are stored in the `data/` directory. These include c
 
 Results can be reproduced using scripts contained in the `scripts/` directory. The chronology of running these scripts is as follows:
 
-1. `QoIAwareProjection-train`
-2. `QoIAwareProjection-VarianceData`
-3. `QoIAwareProjection-kernel-regression`
+1. [`QoIAwareProjection-train.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-train.py)
+2. [`QoIAwareProjection-VarianceData.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-VarianceData.py)
+3. [`QoIAwareProjection-kernel-regression-2D.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-kernel-regression-2D.py) and [`QoIAwareProjection-kernel-regression-3D.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-kernel-regression-3D.py)
 
-Scripts 1. and 2. can take a long to run. Script 2. is parallelized and it is highly recommended that it is run on multiple CPUs. We have completed our computations running this script on 64CPUs, where looping over 100 random seeds for a single dataset takes about 20 hours to complete.
+Scripts 1. and 2. can take a long time to run. Script 2. is parallelized and it is highly recommended that it is run on multiple CPUs. We have completed our computations running this script on 64CPUs, where looping over 100 random seeds for a single dataset takes about 20 hours to complete.
 
 Our open-source Python library [**PCAfold**](https://pcafold.readthedocs.io/en/latest/index.html) is required. Specifically, the user will need the class `QoIAwareProjection`. More information can be found in this [illustrative tutorial](https://pcafold.readthedocs.io/en/latest/tutorials/demo-qoi-aware-encoder-decoder.html).
 
