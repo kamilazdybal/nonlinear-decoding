@@ -81,6 +81,6 @@ Once the results are obtained using these scripts, the following Jupyter noteboo
 
 ![Screenshot](figures/S2.png)
 
-- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Figs. S1-S2**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-MSE-loss-convergence.ipynb) can be used to reproduce results from **Figs. S1-S2**.
 
 ***
