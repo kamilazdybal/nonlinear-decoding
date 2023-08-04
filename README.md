@@ -69,7 +69,7 @@ Once the results are obtained using these scripts, the following Jupyter noteboo
 
 ![Screenshot](figures/Figure-4.png)
 
-- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4A**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-zero-dimensional-reactor-FOM.ipynb) can be used to reproduce results from **Fig. 4A**.
 - This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4B-C** and **Fig. 4F**.
 - This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4D-F**.
 
