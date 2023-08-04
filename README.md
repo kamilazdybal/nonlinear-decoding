@@ -1,8 +1,20 @@
-# 📄 *Improving reduced-order models through nonlinear decoding of projection-dependent model outputs*
+# 📄 *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*
+
+This repository contains code, datasets, and results from the paper:
+
+> K. Zdybał, A. Parente, J. C. Sutherland - *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*, 2023
+
+## The bigger picture
+
+High-dimensional datasets are becoming increasingly abundant in various scientific and engineering disciplines. Making sense of those datasets and building data-driven models based on the collected state variables can be achieved through dimensionality reduction. We show that the quality of reduced data representation can be significantly improved by informing data projections by quantities of interest (QoIs) other than the original state variables. QoIs are often known to researchers as variables that should be well represented on a projection. Our approach of computing “QoI-aware” projections can find application in all areas of science and engineering that aim to reduce the dimensionality of multivariate datasets, as well as in fundamental research of representation learning.
+
+## Graphical abstract
+
+![Screenshot](figures/graphical-abstract.png)
 
 ## Data
 
-Datasets used in this study are stored in the `data/` directory. These include multivariate combustion datasets for:
+Datasets used in this study are stored in the [`data/`](data/) directory. These include multivariate combustion datasets for:
 
 - hydrogen
 - syngas
@@ -11,7 +23,7 @@ Datasets used in this study are stored in the `data/` directory. These include m
 
 ## Code
 
-Results can be reproduced using scripts contained in the `scripts/` directory. The chronology of running these scripts is as follows:
+The main results can be reproduced using scripts contained in the [`scripts/`](scripts/) directory. The chronology of running these scripts is as follows:
 
 1. [`QoIAwareProjection-train.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-train.py)
 2. [`QoIAwareProjection-VarianceData.py`](https://github.com/kamilazdybal/nonlinear-decoding/blob/main/scripts/QoIAwareProjection-VarianceData.py)
@@ -27,26 +39,48 @@ For results reproducibility, we use fixed random seeds for neural network initia
 
 Once the results are obtained using these scripts, the following Jupyter notebooks can be used to post-process results and generate figures:
 
-### Reproducing Figure 2
+### Reproducing Figure 1
 
-This [Jupyter notebook]() can be used to reproduce results from this figure:
+![Screenshot](figures/Figure-1.png)
+
+- This [Jupyter notebook]() can be used to reproduce results from **Fig. 1B** and from the **Graphical abstract**.
+
+***
+
+### Reproducing Figure 2
 
 ![Screenshot](figures/Figure-2.png)
 
+- This [Jupyter notebook]() can be used to reproduce results from **Fig. 2**.
+
+***
+
 ### Reproducing Figure 3
-
-These two Jupyter notebooks:
-
-- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-inspect-projections.ipynb)
-
-- [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-draw-PDFs.ipynb)
-
-can be used to reproduce results from this figure:
 
 ![Screenshot](figures/Figure-3.png)
 
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-draw-PDFs.ipynb) can be used to reproduce results from **Fig. 3A**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-inspect-projections.ipynb) can be used to reproduce results from **Fig. 3B**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-kernel-regression.ipynb) can be used to reproduce results from **Fig. 3C**.
+
+***
+
 ### Reproducing Figure 4
 
-This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-kernel-regression.ipynb) can be used to reproduce results from this figure:
-
 ![Screenshot](figures/Figure-4.png)
+
+- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4A**.
+- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4B-C** and **Fig. 4F**.
+- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4D-F**.
+
+***
+
+### Reproducing Supplementary Figures S1-S2
+
+![Screenshot](figures/S1.png)
+
+![Screenshot](figures/S2.png)
+
+- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Figs. S1-S2**.
+
+***
