@@ -16,10 +16,12 @@ High-dimensional datasets are becoming increasingly abundant in various scientif
 
 Datasets used in this study are stored in the [`data/`](data/) directory. These include multivariate combustion datasets for:
 
-- hydrogen
-- syngas
-- methane
-- ethylene
+- SLF, hydrogen
+- SLF, syngas
+- SLF, methane
+- SLF, ethylene
+
+- Zero-dimensional reactor, syngas
 
 ## Code
 
@@ -49,7 +51,7 @@ Once the results are obtained using these scripts, the following Jupyter noteboo
 
 ![Screenshot](figures/Figure-1.png)
 
-- This [Jupyter notebook]() can be used to reproduce results from **Fig. 1B** and from the **Graphical abstract**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-evolving-projection-illustration.ipynb) can be used to reproduce results from **Fig. 1B** and from the **Graphical abstract**.
 
 ***
 
@@ -76,8 +78,8 @@ Once the results are obtained using these scripts, the following Jupyter noteboo
 ![Screenshot](figures/Figure-4.png)
 
 - This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-zero-dimensional-reactor-FOM.ipynb) can be used to reproduce results from **Fig. 4A**.
-- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4B-C** and **Fig. 4F**.
-- This [Jupyter notebook](jupyter-notebooks/) can be used to reproduce results from **Fig. 4D-F**.
+- This [Jupyter notebook](jupyter-notebooks/PCA-zero-dimensional-reactor-ROM.ipynb) can be used to reproduce results from **Fig. 4B-C** and **Fig. 4F**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-zero-dimensional-reactor-ROM.ipynb) can be used to reproduce results from **Fig. 4D-F**.
 
 ***
 
