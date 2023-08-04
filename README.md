@@ -66,7 +66,7 @@ Once the results are obtained using these scripts, the following Jupyter noteboo
 ![Screenshot](figures/Figure-3.png)
 
 - This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-draw-PDFs.ipynb) can be used to reproduce results from **Fig. 3A**.
-- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-inspect-projections.ipynb) can be used to reproduce results from **Fig. 3B**.
+- This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-selected-2D-projections.ipynb) can be used to reproduce results from **Fig. 3B**.
 - This [Jupyter notebook](jupyter-notebooks/QoIAwareProjection-kernel-regression.ipynb) can be used to reproduce results from **Fig. 3C**.
 
 ***
