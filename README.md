@@ -2,11 +2,11 @@
 
 This repository contains code, datasets, and results from the paper:
 
-> K. Zdybał, A. Parente, J. C. Sutherland - *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*, 2023
+> K. Zdybał, A. Parente, J. C. Sutherland - *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*, Patterns, 2023
 
 ## The bigger picture
 
-High-dimensional datasets are becoming increasingly abundant in various scientific and engineering disciplines. Making sense of those datasets and building data-driven models based on the collected state variables can be achieved through dimensionality reduction. We show that the quality of reduced data representation can be significantly improved by informing data projections by quantities of interest (QoIs) other than the original state variables. QoIs are often known to researchers as variables that should be well represented on a projection. Our approach of computing “QoI-aware” projections can find application in all areas of science and engineering that aim to reduce the dimensionality of multivariate datasets, as well as in fundamental research of representation learning.
+Large datasets are increasingly abundant in various scientific and engineering disciplines. Multiple physical variables are frequently gathered into one dataset, leading to high data dimensionality. Visualizing and understanding multivariate datasets, and building data-driven models based on the collected variables can be achieved through dimensionality reduction. However, in many reduction techniques to date, there is no guarantee that the reduced data representation will posses certain desired topological qualities. We show that the quality of reduced data representations can be significantly improved by informing data projections by target quantities of interest (QoIs), some of which are functions of the projection itself. The target QoIs are often known to researchers as variables that should be well represented on a projection. Those can include closure terms required in modeling, important physical variables other than the state variables, or class labels in the case of categorical data. Our approach of computing improved data representations can find application in all areas of science and engineering that aim to reduce the dimensionality of multivariate datasets, as well as in fundamental research of representation learning. This work can have particular relevance in efficient data visualization and in efficient modeling of dynamical systems with many degrees of freedom.
 
 ## Graphical abstract
 
