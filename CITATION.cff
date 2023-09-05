@@ -1,4 +1,4 @@
-cff-version: 1.1.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: Zdybal
@@ -7,6 +7,7 @@ authors:
     given-names: Alessandro
   - family-names: Sutherland
     given-names: James C.
-title: kamilazdybal/nonlinear-decoding: Patterns, 2023
+title: Improving reduced-order models through nonlinear decoding of projection-dependent outputs
 version: Patterns-2023
+doi: 10.5281/zenodo.8319055
 date-released: 2023-09-05
