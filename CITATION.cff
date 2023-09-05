@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Zdybal
+    given-names: Kamila
+  - family-names: Parente
+    given-names: Alessandro
+  - family-names: Sutherland
+    given-names: James C.
+title: kamilazdybal/nonlinear-decoding: Patterns, 2023
+version: Patterns-2023
+date-released: 2023-09-05
