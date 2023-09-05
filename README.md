@@ -16,11 +16,10 @@ Large datasets are increasingly abundant in various scientific and engineering d
 
 Datasets used in this study are stored in the [`data/`](data/) directory. These include multivariate combustion datasets for:
 
-- SLF, hydrogen
-- SLF, syngas
-- SLF, methane
-- SLF, ethylene
-
+- Steady laminar flamelet, hydrogen
+- Steady laminar flamelet, syngas
+- Steady laminar flamelet, methane
+- Steady laminar flamelet, ethylene
 - Zero-dimensional reactor, syngas
 
 ## Code
@@ -39,13 +38,13 @@ The results for the synthetic dataset from Fig. 2. can be run on multiple CPUs u
 2. [`illustrative-example-nonlinear-reconstruction-from-a-subspace.py`](scripts/illustrative-example-nonlinear-reconstruction-from-a-subspace.py)
 3. [`illustrative-example-costs.py`](scripts/illustrative-example-costs.py)
 
-Our open-source Python library, [**PCAfold**](https://pcafold.readthedocs.io/en/latest/index.html), is required. Specifically, the user will need the class [`QoIAwareProjection`](https://pcafold.readthedocs.io/en/latest/user/utilities.html#class-qoiawareprojection). More information can be found in this [illustrative tutorial](https://pcafold.readthedocs.io/en/latest/tutorials/demo-qoi-aware-encoder-decoder.html).
+Our open-source Python library, [**PCAfold**](https://pcafold.readthedocs.io/en/latest/index.html), is required. Specifically, the user will need the class [`QoIAwareProjection`](https://pcafold.readthedocs.io/en/latest/user/utilities.html#class-qoiawareprojection). More information can be found in this [illustrative tutorial](https://pcafold.readthedocs.io/en/latest/tutorials/demo-qoi-aware-encoder-decoder.html). We recommend a Python stack with `Python>=3.8` and the latest versions of all the necessary modules.
 
 For results reproducibility, we use fixed random seeds for neural network initialization and training. The exact values for random seeds can be retrieved from the code provided.
 
 ## Jupyter notebooks
 
-Once the results are obtained using these scripts, the following Jupyter notebooks can be used to post-process results and generate figures:
+Once the main results are obtained using the scripts from the [`scripts/`](scripts/) directory, the following Jupyter notebooks can be used to post-process results and generate figures:
 
 ### Reproducing Figure 1
 
