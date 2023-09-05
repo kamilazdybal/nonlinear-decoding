@@ -1,5 +1,7 @@
 # 📄 *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*
 
+[![DOI](https://zenodo.org/badge/603501121.svg)](https://zenodo.org/badge/latestdoi/603501121)
+
 This repository contains code, datasets, and results from the paper:
 
 > K. Zdybał, A. Parente, J. C. Sutherland - *Improving reduced-order models through nonlinear decoding of projection-dependent outputs*, Patterns, 2023
